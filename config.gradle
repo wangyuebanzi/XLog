@@ -1,0 +1,27 @@
+
+project.ext {
+
+    releaseVersion = '0.1.4-SNAPSHOT'
+
+    environmentVersion = [
+            minSdk          : 14,
+            compileSdk      : 26,
+            targetSdk       : 24,
+            buildTools      : '25'
+    ]
+    dependenciesVersion = [
+
+            /* for test dependence*/
+            junit           : '4.12',
+            truth           : '0.36',
+            testRunner      : '1.0.1',
+            testRules       : '1.0.1',
+            espresso        : '3.0.1',
+            robolectric     : '3.5.1',
+            robolectricSupport:'3.3.2',
+    ]
+
+
+
+
+}

@@ -1,0 +1,53 @@
+:xlog:preBuild UP-TO-DATE
+:xlog:preDebugBuild UP-TO-DATE
+:xlog:compileDebugAidl
+:xlog:compileDebugRenderscript
+:xlog:checkDebugManifest
+:xlog:generateDebugBuildConfig
+:xlog:prepareLintJar
+:xlog:generateDebugResValues
+:xlog:generateDebugResources
+:xlog:packageDebugResources
+:xlog:platformAttrExtractor
+:xlog:processDebugManifest
+:xlog:javaPreCompileDebug
+:xlog:preDebugUnitTestBuild UP-TO-DATE
+:xlog:mergeDebugShaders
+:xlog:compileDebugShaders
+:xlog:generateDebugAssets
+:xlog:mergeDebugAssets
+:xlog:mergeDebugResources
+:xlog:generateDebugUnitTestConfig
+:xlog:mockableAndroidJar
+:xlog:processDebugUnitTestJavaRes NO-SOURCE
+:xlog:processDebugJavaRes NO-SOURCE
+:xlog:processDebugResources
+:xlog:generateDebugSources
+:xlog:compileDebugJavaWithJavac
+:xlog:javaPreCompileDebugUnitTest
+:xlog:compileDebugUnitTestJavaWithJavac
+:xlog:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:xlog:testDebugUnitTest
+
+com.foolman.xlog.LogTest > testReleaseFile_autoTag FAILED
+    java.lang.IndexOutOfBoundsException at LogTest.java:224
+
+com.foolman.xlog.LogTest > testReleaseFile_exportFile FAILED
+    java.lang.IndexOutOfBoundsException at LogTest.java:408
+
+com.foolman.xlog.LogTest > testReleaseFile_changeLogSize_lastExist FAILED
+    java.lang.IndexOutOfBoundsException at LogTest.java:379
+
+com.foolman.xlog.LogTest > testReleaseFile_changeLogSize_lastNotExist FAILED
+    java.lang.IndexOutOfBoundsException at LogTest.java:349
+
+com.foolman.xlog.LogTest > testReleaseFile_modifyLogLevel FAILED
+    java.lang.IndexOutOfBoundsException at LogTest.java:300
+
+com.foolman.xlog.LogTest > testReleaseFile_exception FAILED
+    java.lang.IndexOutOfBoundsException at LogTest.java:329
+
+com.foolman.xlog.LogTest > testReleaseFile_customTag FAILED
+    java.lang.IndexOutOfBoundsException at LogTest.java:248
+:xlog:testDebugUnitTest FAILED
+22 actionable tasks: 22 executed
